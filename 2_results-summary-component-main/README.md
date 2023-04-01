@@ -1,6 +1,6 @@
 # Frontend Mentor - Results summary component solution
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV).
 
 ## Table of contents
 
@@ -27,8 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
+**Desktop View**
+
 ![](./screenshot.jpg)
-![](./screenshot_mobile.jpg)
+
+**Mobile View**
+
+<img src="./screenshot_mobile.jpg" width="375" height="700">
 
 ### Links
 
@@ -46,12 +51,14 @@ Users should be able to:
 
 ### What I learned
 
-1.HTML tag structures matter
+1. HTML tag structures matter
+
 I realized during my design process using css code it is very important to think about 
 how I would lay out my HTML structure. This was mainly important because it indicates how I would
 target the html tag using css.
 
-2.CSS target rules
+2. CSS target rules
+
 I had hard time targeting the css rule for the list of categories. I ended up targeting my css code using nth-child selector 
 and adding another class to the text to adjust the color. I need to investigate what other ways to target the css code.
 ```css
@@ -63,35 +70,33 @@ and adding another class to the text to adjust the color. I need to investigate 
 }
 ```
 
-3.hsla() function was confusing
+3. hsla() function was confusing
+
 I wasn't sure how to use this function to adjust my design.
 Experiment with the function necessary
 
-4.Linear gradient
+4. Linear gradient
+
 Using linear gradient was quite difficult to wrap my head around.
 More practices needed.
 
-5.Mobile design is hard. 
+5. Mobile design is hard. 
+
 Mobile design was more difficult than I expected. I wasn't quite sure how to test my design and how I should design them.
 More study required on this topic
-
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 
-Things to learn.
+***Things to learn.***
 
--hsla()
--Linear gradient
--responsive design
--CSS target
--Markdown for readme
--flex box
--Blogging, to organize my thought process.
+- hsla()
+- Linear gradient
+- responsive design
+- CSS target
+- Markdown for readme
+- Flex box
+- Blogging, to organize my thought process.
 
 ## Author
 
