@@ -33,8 +33,9 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/hyeo151/Frontend-mentor-projects.git)
+
+- [Live Site URL](https://hyeo151.github.io/Frontend-mentor-projects/3_product-preview-card-component-main/)
 
 ## My process
 
