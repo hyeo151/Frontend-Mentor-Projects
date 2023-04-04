@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position:relative;
+    background: hsl(30, 38%, 92%);
+}
+
+.container {
+    display:flex;
+    width: 640px;
+    height: 480px;
+    background: #fff;
+    border-radius: 10px
+}
+
+.container img {
+    width:100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.product-detail {
+    padding: 25px;
+    display: grid;
+}
+
+.product-detail h1 {
+    text-transform:uppercase;
+    color: hsl(228, 12%, 48%);
+    font-weight:500;
+    font-size:14px;
+    letter-spacing: 4.5px;
+}
+
+.product-detail h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -1px;
+    padding-right:10px;
+}
+
+.product-detail p {
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.price-tag {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.discount-price{
+    font-family: 'Fraunces', serif;
+    font-size:27px;
+    font-weight: 700;
+    color:  hsl(158 36% 33% / 1);
+}
+
+.original-price{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: hsl(158 36% 33% / 1);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background: hsl(158 36% 18% / 1);
+}
+
+button embed {
+    margin-right: 10px;
+}
+.attribution{
+    position:absolute;
+    bottom:30px;
+}
+
+@media screen and (max-width:650px){
+    .container {
+        flex-direction: column;
+        width: 360px;
+        height: 700px;
+    }
+    .container img {
+        content:url("images/image-product-mobile.jpg");
+        border-radius:10px 10px 0 0;
+    }
+    .product-detail {
+        height: 100%;
+        align-content: space-between;
+        grid-template-rows:40px 100px 100px 70px 50px;
+    }
+    .product-detail h1{
+        align-self:center;
+    }
+
+    .product-detail p {
+        line-height: 26px;
+        font-size: 15px;
+    }
+}
