@@ -6,3 +6,4 @@
 2. #### [Results-summary-component-main](https://hyeo151.github.io/Frontend-mentor-projects/2_results-summary-component-main/)
 3. #### [product-preview-card-component-main](https://hyeo151.github.io/Frontend-mentor-projects/3_product-preview-card-component-main/)
 4. #### [interactive-rating-component-main](https://hyeo151.github.io/Frontend-mentor-projects/4_interactive-rating-component-main/)
+5. #### [interactive-rating-component-main](https://hyeo151.github.io/Frontend-mentor-projects/5_nft-preview-card-component/)
