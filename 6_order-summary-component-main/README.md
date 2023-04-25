@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/hyeo151/Frontend-mentor-projects.git)
-- Live Site URL: [Add live site URL here](https://hyeo151.github.io/Frontend-mentor-projects/6_order-summary-component-main/src)
+- Live Site URL: [Add live site URL here](https://hyeo151.github.io/Frontend-mentor-projects/6_order-summary-component-main/)
 
 ## My process
 
