@@ -38,6 +38,7 @@ body {
   width: 100%;
   opacity: 0.7;
   object-fit: cover;
+  mix-blend-mode: multiply;
 }
 .card-heading img.desktop-img {
   display: none;
