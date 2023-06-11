@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--neutral-blue-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --primary-red: hsl(1, 90%, 64%);
+  --primary-blue: hsl(219, 85%, 26%);
+
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-blue-0: hsl(210, 60%, 98%);
+  --neutral-blue-1: hsl(211, 68%, 94%);
+  --neutral-blue-2: hsl(205, 33%, 90%);
+  --neutral-blue-3: hsl(219, 14%, 63%);
+  --neutral-blue-4: hsl(219, 12%, 42%);
+  --neutral-blue-5: hsl(224, 21%, 14%);
+}
+
+.notification-box {
+  padding: 20px 15px;
+  max-width: 600px;
+  border-radius: 15px;
+  background-color: var(--neutral-white);
+}
+
+.notification-box-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.notification-count {
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  gap: 8px;
+}
+
+.unread-count {
+  background-color: var(--primary-blue);
+  color: var(--neutral-white);
+  font-size: 15px;
+  padding: 2px 12px;
+  border-radius: 6px;
+}
+
+.notification-mark-read {
+  font-size: 14px;
+  color: var(--neutral-blue-5);
+}
+
+.notification-mark-read,
+.post,
+.account-name,
+.group,
+.post-picture,
+.profile-image {
+  cursor: pointer;
+}
+
+.notification-mark-read:hover,
+.post:hover,
+.account-name:hover,
+.group:hover {
+  color: var(--primary-blue);
+}
+
+.notification {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 13px 20px;
+  gap: 15px;
+  border-radius: 8px;
+}
+
+.notification.unread {
+  background-color: var(--neutral-blue-0);
+}
+
+.profile-image,
+.post-picture {
+  min-width: 45px;
+  min-height: 45px;
+  width: 45px;
+  height: 45px;
+}
+.post-picture {
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.post-picture:hover {
+  background-color: var(--neutral-blue-1);
+}
+
+img {
+  width: 100%;
+}
+.notification-message {
+  flex-grow: 1;
+}
+.notification-content p {
+  color: var(--neutral-blue-4);
+}
+
+.account-name {
+  font-weight: 800;
+  color: var(--neutral-blue-5);
+}
+
+.post {
+  font-weight: 800;
+  color: var(--neutral-blue-4);
+}
+
+.group {
+  color: var(--primary-blue);
+  font-weight: 800;
+}
+
+.unread-label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary-red);
+  border-radius: 50%;
+  margin-bottom: 1px;
+  margin-left: 3px;
+}
+
+.notification-duration {
+  color: var(--neutral-blue-3);
+}
+
+.message-content {
+  border: 1px solid var(--neutral-blue-2);
+  color: var(--neutral-blue-4);
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.message-content:hover {
+  background-color: var(--neutral-blue-1);
+}
+
+@media only screen and (min-width: 650px) {
+  .notification-box {
+    padding: 28px 26px;
+  }
+}
