@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --color-bright-orange: hsl(31, 77%, 52%);
+  --color-dark-cyan: hsl(184, 100%, 22%);
+  --color-very-dark-cyan: hsl(179, 100%, 13%);
+  --color-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --color-very-light-gray: hsl(0, 0%, 95%);
+
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+
+.preview-card {
+  display: flex;
+  max-width: 800px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.preview-card_container {
+  margin: 0 auto;
+  margin-top: 15rem;
+}
+
+.preview-card__icon-wrapper {
+  max-width: 4rem;
+}
+.preview-card__col {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.preview-card_type-sedan {
+  background-color: var(--color-bright-orange);
+}
+.preview-card_type-suvs {
+  background-color: var(--color-dark-cyan);
+}
+.preview-card_type-luxury {
+  background-color: var(--color-very-dark-cyan);
+}
+.preview-card__name {
+  text-transform: uppercase;
+  color: var(--color-transparent-white);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+}
+.preview-card__text {
+  color: var(--color-transparent-white);
+  font-size: 0.8rem;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 20px;
+}
+.button {
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  background-color: var(--color-very-light-gray);
+  padding: 0.6rem 1.5rem;
+  display: inline-block;
+  border-radius: 25px;
+  width: 8rem;
+  text-align: center;
+}
+.button_type-sedan {
+  color: var(--color-bright-orange);
+}
+.button_type-suvs {
+  color: var(--color-dark-cyan);
+}
+.button_type-luxury {
+  color: var(--color-very-dark-cyan);
+}
+.preview-card__button {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  .preview-card {
+    flex-direction: column;
+    max-width: 290px;
+  }
+  .preview-card_container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .preview-card__col {
+    padding: 2.5rem;
+    gap: 1.5rem;
+  }
+  .preview-card__button {
+    margin-top: 0;
+  }
+}

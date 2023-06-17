@@ -11,3 +11,4 @@
 7. #### [stats-preview-card-component-main](https://hyeo151.github.io/Frontend-mentor-projects/7_stats-preview-card-component-main/)
 8. #### [notifications-page-main](https://hyeo151.github.io/Frontend-mentor-projects/8_notifications-page-main/)
 9. #### [testimonials-grid-section-main](https://hyeo151.github.io/Frontend-mentor-projects/9_testimonials-grid-section-main/)
+10. #### [column-preview-card-component-main](https://hyeo151.github.io/Frontend-mentor-projects/10_column-preview-card-component-main/)
