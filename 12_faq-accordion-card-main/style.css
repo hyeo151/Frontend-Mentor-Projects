@@ -48,8 +48,8 @@ body {
 .faq-card__panel-img {
   position: absolute;
   height: 100%;
-  width: 100%;
-  left: -30px;
+  width: 123%;
+  left: -78px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -61,7 +61,7 @@ body {
 .faq-card__img-2 {
   position: absolute;
   width: 30%;
-  top: 141px;
+  top: 111px;
 }
 .faq-card__img-3 {
   width: 100%;
