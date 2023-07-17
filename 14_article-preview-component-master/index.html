@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <script src="script.js" defer></script>
+    <title>Article preview component</title>
+  </head>
+
+  <body
+    class="mt-[70px] bg-[#ecf2f8] lg:mt-0 lg:flex lg:h-screen lg:items-center"
+  >
+    <main
+      class="mx-auto max-w-xs rounded-xl bg-white font-manrope shadow-xl sm:max-w-sm lg:flex lg:h-[285px] lg:max-w-3xl"
+    >
+      <img
+        src="./images/drawers.jpg"
+        alt="drawer image"
+        class="h-[215px] w-full rounded-t-xl object-cover object-[0%_28%] lg:h-auto lg:w-[280px] lg:rounded-none lg:rounded-l-xl"
+      />
+      <div class="lg:p-8">
+        <div class="px-8 pt-10 lg:p-0">
+          <p
+            class="pb-4 text-lg font-bold leading-7 text-[#48556a] lg:mb-2 lg:text-xl"
+          >
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </p>
+          <p
+            class="pb-6 text-sm leading-6 text-[#6d7f97] lg:text-sm lg:tracking-tight"
+          >
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div
+          class="h-[80px] overflow-hidden rounded-b-xl lg:relative lg:h-auto lg:overflow-visible"
+        >
+          <div
+            class="profile-block relative z-10 flex h-full items-center gap-5 px-8 opacity-100 transition-opacity duration-1000 ease-out lg:z-10 lg:p-0 lg:opacity-100"
+          >
+            <img
+              src="./images/avatar-michelle.jpg"
+              alt="Profile image"
+              class="w-12 rounded-full lg:w-10"
+            />
+            <div>
+              <p
+                class="text-sm font-bold tracking-wide text-[#48556a] lg:text-xs"
+              >
+                Michelle Appleton
+              </p>
+              <p class="text-sm text-[#9eafc2] lg:text-xs">28 Jun 2020</p>
+            </div>
+            <div
+              class="share-button ml-auto inline-block rounded-full bg-[#ecf2f8] p-2 hover:cursor-pointer"
+            >
+              <img src="./images/icon-share.svg" alt="share icon" class="w-4" />
+            </div>
+          </div>
+          <div
+            class="share-block relative top-[-100%] -z-10 flex h-full items-center gap-7 rounded-b-xl bg-[#48556a] px-8 opacity-0 transition-opacity duration-1000 ease-out lg:absolute lg:right-[-77px] lg:top-[-56px] lg:z-10 lg:hidden lg:h-[40px] lg:items-center lg:gap-4 lg:rounded-lg lg:px-6 lg:opacity-100"
+          >
+            <div
+              class="absolute bottom-[-9px] right-2/4 hidden h-0 w-0 translate-x-1/2 border-b-0 border-l-[10px] border-r-[10px] border-t-[10px] border-[#48556a] border-l-transparent border-r-transparent lg:block"
+            ></div>
+            <p
+              class="text-sm tracking-[0.3em] text-[#ecf2f8] lg:mt-[3px] lg:text-[10px] lg:font-bold lg:leading-3 lg:text-[#6d7f97]"
+            >
+              SHARE
+            </p>
+            <div class="flex gap-4 lg:gap-3">
+              <img
+                src="./images/icon-facebook.svg"
+                alt="facebook logo"
+                class="lg:w-4"
+              />
+              <img
+                src="./images/icon-twitter.svg"
+                alt="twitter logo"
+                class="lg:w-4"
+              />
+              <img
+                src="./images/icon-pinterest.svg"
+                alt="pinterest logo"
+                class="lg:w-4"
+              />
+            </div>
+            <div
+              class="share-button ml-auto inline-block rounded-full bg-[#6d7f97] p-2 hover:cursor-pointer lg:hidden"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="13"
+                class="fill-white"
+              >
+                <path
+                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
