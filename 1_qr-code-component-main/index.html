@@ -121,7 +121,8 @@
             [300, 250],
             "div-gpt-ad-1713234844414-0"
           )
-          .addService(googletag.pubads());
+          .addService(googletag.pubads())
+          .setTargeting("adtest", "shawnyeo");
 
         googletag.pubads().enableSingleRequest();
         googletag.enableServices();
